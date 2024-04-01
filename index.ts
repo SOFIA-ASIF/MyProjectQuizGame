@@ -3,7 +3,7 @@ import chalk from "chalk";
 import inquirer from "inquirer";
 console.clear();
 console.log(chalk.red("Welcome to TypeScript Quiz :)"));
-let out = chalk.bold.italic.bgCyan("out");
+let out = (chalk.bold.italic.bgCyan("out"));
 console.log(`How to play:
 If you get any question wrong you will be ${out}
 so let's start the game`);

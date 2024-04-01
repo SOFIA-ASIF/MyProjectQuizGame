@@ -1,6 +1,6 @@
 {
   "name": "myprojectquizgame",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A game in which you will get questions to answer and get scores based on your answers",
   "main": "index.js",
   "type": "module",
