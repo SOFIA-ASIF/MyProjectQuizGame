@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import chalk from "chalk";
 import inquirer from "inquirer";
 console.log(chalk.red("Welcome to TypeScript Quiz :)"));
@@ -91,12 +92,3 @@ for (let i = 0; i < quizQuestion.length; i++) {
     }
 }
 console.log(`${name1.name} Your total score is ${score} out of 10`);
-if (score === 10) {
-    const message = ` ____                            _                        
-    / ___|___  _ __   __ _ _ __ __ _| |_ ___        
-   | |   / _ \|  _ \ /  _ | ' _/ _ | __/ __|      
-   | |__| (_) | | | | (_| | | | (_| | |_\__ \  
-    \____\___/|_| |_|\__,_|_|  \__,_|\__|___/
-                      |___/`;
-    console.log(message);
-}
